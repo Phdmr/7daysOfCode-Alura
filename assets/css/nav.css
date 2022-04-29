@@ -2,14 +2,11 @@
 
 .caixa {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
- 
-    position: static;
-    width: 1440px;
+
+    width: 100%;
     height: 80px;
-    left: 0px;
-    top: 0px;
+
 }
 
 .cabecalho {
@@ -20,12 +17,22 @@
 }
 
 .cabecalho-nav {
+    text-decoration: none;
     font-size: .75rem;
     font-weight: 500;
     font-family: 'Inter', sans-serif;
     color: var(--cinza-claro);
-    padding-left: 5rem;
+}
 
+.cabecalho-nav--start {
+    padding-left: 5rem;
+    justify-content: flex-start;
+}
+
+.cabecalho-nav--end {
+    margin-left: auto;
+    padding-right: 5rem;
+    justify-content: flex-end;
 }
 
 .cabecalho-nav--botoes {
@@ -37,6 +44,14 @@
     text-decoration: none;
     display: inline;
     margin: 0 0 0 2rem;
+}
+
+.cabecalho-nav--deco {
+    text-decoration: none;
+    font-size: .75rem;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    color: var(--cinza-claro);
 }
 
 .logo {
