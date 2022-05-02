@@ -180,7 +180,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 407px;
+    height: 610px;
     left: 50%;
     padding-top: 4rem;
 }
@@ -225,5 +225,55 @@
 }
 
 .chamada_h--img {
+    display: block;
     width: 90%;
+}
+
+/*VAGAS*/
+
+.caixa_vaga {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 50%;
+    height: 334px;
+    left: 50%;
+    padding-top: 4rem;
+    margin: 0 auto;
+}
+
+.caixa_borda {
+    padding: 24px;
+    border-radius: 20px;
+    border: 2px solid #EAECF0;
+
+    margin-bottom: 24px;
+}
+
+.vaga_nome {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--cinza-escuro);
+
+    margin-bottom: 2rem;
+
+}
+
+.vaga_nome--sub {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--cinza-escuro);
+    margin-bottom: 32px;
+
+}
+
+.vaga_nome--desc {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    size: 16px;
+    color: var(--cinza-claro);
+
+    margin-bottom: 28px;
 }
